@@ -27,6 +27,7 @@ jobs:
       with:
         azcliversion: 2.30.0
         inlineScript: |
+          az config set core.only_show_error=false
           az login --use-device-code
     - name: Terraform Plan
       id: plan
