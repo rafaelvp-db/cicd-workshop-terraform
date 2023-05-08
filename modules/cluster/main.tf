@@ -20,6 +20,7 @@ resource "databricks_instance_pool" "smallest_nodes" {
 
 resource "databricks_cluster" "shared_autoscaling" {
   cluster_name            = "Shared Autoscaling"
+  num_workers             = 2
   spark_version           = data.databricks_spark_version.latest_lts.id
   instance_pool_id        = databricks_instance_pool.smallest_nodes.id
 }
