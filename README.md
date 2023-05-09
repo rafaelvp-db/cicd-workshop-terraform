@@ -1,5 +1,7 @@
 # databricks-cicd-workshop-terraform
 
+![databricks-terraform](https://www.falekmiah.com/images/portfolio/terraform-databricks-labs/terraform-adb-labs-featured.png)
+
 **TLDR**; this repo contains a simple [Terraform](https://registry.terraform.io/providers/databricks/databricks/latest/docs) Infrastructure as Code (IaC) example, where we:
 
 * Create an [Azure Databricks](https://azure.microsoft.com/en-us/products/databricks/) workspace
