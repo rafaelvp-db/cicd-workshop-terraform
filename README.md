@@ -1,4 +1,4 @@
-# databricks-cicd-workshop-terraform
+# Databricks CICD & DevOps with Terraform
 
 ![databricks-terraform](https://www.falekmiah.com/images/portfolio/terraform-databricks-labs/terraform-adb-labs-featured.png)
 
